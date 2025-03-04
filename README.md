@@ -3,7 +3,7 @@
 
 # Altiria, cliente envío de SMS con PHP
 
- ![](https://img.shields.io/badge/version-1.0.2-blue.svg)
+ ![](https://img.shields.io/badge/version-1.0.0-green.svg)
 
 Altiria SMS PHP es el cliente de envío de SMS que simplifica al máximo la integración del API SMS para PHP de Altiria.
 - **Envíos de SMS individuales**
@@ -25,7 +25,7 @@ Es necesario tener una cuenta de envío con Altiria. Si todavía no tienes una,
 
 ## Requisitos
 
-- php: ^7.0.0
+- php: ^8.4.0
 - [composer](https://getcomposer.org/)
 
 ## Instalación
@@ -35,7 +35,7 @@ La forma recomendada de instalar el cliente Altiria para PHP es a través de Com
 ### A través de línea de comandos
 
 <pre>
-composer require altiria/sms-php-client
+composer require dmateo/sms-php-client
 </pre>
 
 ### Editando el fichero composer.json y actualizando el proyecto
@@ -44,7 +44,7 @@ En este caso, añadir el siguiente fragmento al fichero composer.json.
 
 <pre>
 "require": {
-	"altiria/sms-php-client": "1.0.2"
+	"dmateo/sms-php-client": "1.0.0"
 }
 </pre>
 
